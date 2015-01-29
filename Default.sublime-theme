@@ -211,7 +211,6 @@
         "attributes": ["horizontal", "dark"],
         "layer0.texture": "Theme - Default/overlay_dark_thumb_horizontal.png"
     },
-
     {
         "class": "panel_control",
         "layer0.texture": "Theme - Default/status_bar.png",
@@ -412,20 +411,6 @@
         "selected_fg": [72, 72, 72, 255],
         "selected_match_fg": [0, 0, 0, 255]
     },
-
-    {
-        "class": "sheet_container_control",
-        "layer0.tint": [64, 64, 64],
-        "layer0.opacity": 1.0
-    },
-
-
-    {
-        "class": "grid_layout_control",
-        "border_size": 1,
-        "border_color": [80, 80, 80]
-    },
-
     {
         "class": "progress_bar_control",
         "layer0.tint": [32, 32, 32],
@@ -556,6 +541,18 @@
         "content_margin": [8, 8]
     },
 
+//= GENERAL
+    {
+        "class": "sheet_container_control",
+        "layer0.tint": [230, 230, 230],
+        "layer0.opacity": 1.0
+    },
+    {
+        "class": "grid_layout_control",
+        "border_size": 1,
+        "border_color": [110, 110, 110]
+    },
+
 //= STATUS BAR
   {
     "class": "status_bar",
@@ -593,11 +590,10 @@
 //= SIDE BAR
 	{
 	    "class": "sidebar_container",
-	    "layer0.texture": "Theme - Default/sidebar-bg.png",
-	    // "layer0.tint": [80, 80, 80],
-	    "layer0.opacity": 1.0,
+	    "layer0.tint": [80, 80, 80],
+	    "layer0.opacity": 0.6,
 	    "layer0.draw_center": false,
-	    "layer0.inner_margin": [1, 1, 2, 1],
+	    "layer0.inner_margin": [0, 0, 1, 0],
 	    "content_margin": [0, 0, 1, 0]
 	},
 	{
@@ -606,8 +602,8 @@
 	    "indent": 15,
 	    "indent_offset": 15,
 	    "indent_top_level": false,
-	    // "layer0.tint": [230, 230, 230],
-	    // "layer0.opacity": 1.0,
+	    "layer0.tint": [230, 230, 230],
+	    "layer0.opacity": 1.0,
 	    "dark_content": false
 	},
 	{
@@ -683,7 +679,7 @@
         "hit_test_level": 0.4
     },
 
-//// Tabs (file color overrides)
+    //// Tabs (file color overrides)
     {
         "class": "tab_control", "attributes": ["file_light"],
         "tint_modifier": [0, 0, 0, 64],
@@ -710,7 +706,7 @@
         "layer2.opacity": 0.75
     },
 
-//// Selected Tabs
+    //// Selected Tabs
     {
         "class": "tab_control", "attributes": ["selected"],
         "tint_modifier": [0, 0, 0, 0],
@@ -721,7 +717,7 @@
         "class": "tab_control", "attributes": ["selected", "file_light"],
         "tint_modifier": [0, 0, 0, 0],
         "layer2.texture": "Theme - Default/light_selected_tab_bg.png",
-        "layer2.opacity": 0.75
+        "layer2.opacity": 0.6
     },
     {
         "class": "tab_control", "attributes": ["selected", "file_medium"],
@@ -742,11 +738,12 @@
         "layer2.opacity": 0.75
     },
 
-//// Tab Labels
+    //// Tab Labels
     {
         "class": "tab_label",
         "fg": [0, 0, 0, 255],
         // "font.face": "Consolas",
+        "font.face": "Helvetica Neue",
         "font.size": 10,
         "font.italic": false
     },
@@ -820,7 +817,7 @@
         "font.italic": true
     },
 
-//// Tab Close Buttons
+    //// Tab Close Buttons
     {
         "class": "tab_close_button",
         "content_margin": [0, 0],
@@ -941,7 +938,7 @@
         "layer3.opacity": 1.0
     },
 
-//// tab set scroll left scroll right
+    //// tab set scroll left scroll right
     {
         "class": "scroll_tabs_left_button",
         "content_margin": [9, 7, 8, 6],
