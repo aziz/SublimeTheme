@@ -418,27 +418,6 @@
 
         "content_margin": [3, 3, 3, 3]
     },
-    {
-        "class": "status_bar",
-        "layer0.texture": "Theme - Default/status_bar.png",
-        "layer0.opacity": 1.0,
-        "layer0.inner_margin": [2, 2],
-        "content_margin": [4, 2, 4, 0]
-    },
-    {
-        "class": "status_container",
-        "content_margin": [0, 2, 0, 3],
-    },
-    {
-        "class": "status_button",
-        "layer0.tint": [125, 125, 125],
-        "layer0.opacity": 1.0,
-        "layer0.draw_center": false,
-        "layer0.inner_margin": [1, 0, 0, 0],
-        "content_margin": [10, 2, 10, 3],
-        "min_size": [75, 0]
-    },
-
     // Quick Panel
     {
         "class": "quick_panel",
@@ -1054,4 +1033,38 @@
         "layer0.opacity": 1.0,
         "content_margin": [8, 8]
     },
+
+//= STATUS BAR
+  {
+    "class": "status_bar",
+    "layer0.tint": [230, 230, 230],
+    "layer0.opacity": 1.0,
+    "layer0.inner_margin": [2, 2],
+    "layer1.tint": [0, 0, 0],
+    "layer1.opacity": 0.2,
+    "layer1.draw_center": false,
+    "layer1.inner_margin": [0, 1, 0, 0],
+    "content_margin": [8, 1, 8, 0]
+  },
+  {
+    "class": "status_container",
+    "content_margin": [0, 4, 0, 0],
+  },
+  {
+    "class": "status_button",
+    "layer0.tint": [0, 0, 0],
+    "layer0.opacity": 0.2,
+    "layer0.draw_center": false,
+    "layer0.inner_margin": [1, 0, 0, 0],
+    "content_margin": [10, 4, 10, 0],
+    "min_size": [90, 0]
+  },
+  {
+    "class": "label_control",
+    "font.face": "consolas",
+    "parents": [{"class": "status_bar"}],
+    "color": [20, 20, 20],
+    "shadow_color": [255, 255, 255],
+    "shadow_offset": [0, 0]
+  }
 ]
