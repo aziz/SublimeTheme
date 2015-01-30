@@ -474,7 +474,7 @@
         "layer0.texture": "Theme - El Capitan/Assets/quick-panel-text-field.png",
         "layer0.opacity": 1.0,
         "layer0.inner_margin": [18, 8, 18, 8],
-        "content_margin": [16, 6, 16, 6]
+        "content_margin": [16, 12, 16, 12]
     },
 
     {
@@ -551,7 +551,7 @@
     {
         "class": "grid_layout_control",
         "border_size": 1,
-        "border_color": [110, 110, 110]
+        "border_color": [184, 184, 184]
     },
     {
         "class": "progress_bar_control",
