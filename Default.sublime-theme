@@ -433,7 +433,7 @@
         "layer0.texture": "Theme - El Capitan/Assets/quick-panel-background.png",
         "layer0.inner_margin": [10, 16, 10, 10],
         "layer0.opacity": 1.0,
-        "content_margin": [4, 16, 4, 10 ]
+        "content_margin": [4, 16, 4, 10]
     },
 
 //= LABELS
@@ -574,7 +574,7 @@
 //= STATUS BAR
   {
     "class": "status_bar",
-    "layer0.tint": [230, 230, 230],
+    "layer0.tint": [240, 240, 240],
     "layer0.opacity": 1.0,
     "layer0.inner_margin": [2, 2],
     "layer1.tint": [0, 0, 0],
