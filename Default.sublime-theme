@@ -7,7 +7,7 @@
         "layer1.texture": "Theme - Default/arrow_right_over.png",
         "layer1.opacity": 0.0,
         "layer1.inner_margin": 0,
-        "content_margin": [9, 7, 8, 6]
+        "content_margin": [8, 6, 7, 5]
     },
     {
         "class": "disclosure_button_control",
@@ -58,13 +58,13 @@
         "class": "icon_file_type",
         // layer0.texture is filled in by code with the relevant icon name
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [7, 7]
     },
     {
         "class": "icon_folder",
         "layer0.texture": "Theme - Default/icons/folder.png",
         "layer0.opacity": 1.0,
-        "content_margin": [8, 8]
+        "content_margin": [7, 6]
     },
     {
         "class": "icon_folder",
@@ -109,7 +109,8 @@
     {
         "class": "label_control",
         "color": [0, 0, 0],
-        "font.face": "Helvetica Neue"
+        // "font.face": "Helvetica Neue"
+        "font.face": "San Francisco Display",
     },
     // Text field labels
     {
@@ -414,7 +415,8 @@
     {
         "class": "tool_tip_label_control",
         "color": [0, 0, 0],
-        "font.face": "Helvetica Neue"
+        // "font.face": "Helvetica Neue"
+        "font.face": "San Francisco Display",
     },
 
 //= PANEL BACKGROUNDS
@@ -442,7 +444,8 @@
     {
         "class": "label_control",
         "color": [0, 0, 0],
-        "font.face": "Helvetica Neue"
+        // "font.face": "Helvetica Neue"
+        "font.face": "San Francisco Display",
     },
     // Text field labels
     {
@@ -607,7 +610,8 @@
   // Helvetica Status bar overrides
   {
     "class": "label_control",
-    "font.face": "Helvetica Neue",
+    // "font.face": "Helvetica Neue",
+    "font.face": "San Francisco Display",
     "font.size": 11,
   },
   {
@@ -636,7 +640,7 @@
 	},
 	{
 	    "class": "sidebar_tree",
-	    "row_padding": [6, 3],
+	    "row_padding": [4, 3],
 	    "indent": 15,
 	    "indent_offset": 15,
 	    "indent_top_level": false,
@@ -648,7 +652,8 @@
 	    "class": "sidebar_heading",
 	    "color": [124, 134, 146],
 	    "font.bold": true,
-	    "font.face": "Helvetica Neue",
+	    // "font.face": "Helvetica Neue",
+        "font.face": "San Francisco Display",
 	    "font.size": 10,
 	    "shadow_color": [250, 250, 250],
 	    "shadow_offset": [0, 0]
@@ -672,9 +677,10 @@
 	{
 	    "class": "sidebar_label",
 	    "color": [0, 0, 0],
-	    // "font.face": "Consolas",
-	    "font.face": "Helvetica Neue",
-	    "font.size": 11,
+        // "font.face": "Lucida grande",
+        "font.face": "San Francisco Display",
+	    // "font.face": "Helvetica Neue",
+	    "font.size": 10,
 	    "font.bold": false,
 	    "font.italic": false
 	},
@@ -781,7 +787,8 @@
         "class": "tab_label",
         "fg": [0, 0, 0, 255],
         // "font.face": "Consolas",
-        "font.face": "Helvetica Neue",
+        // "font.face": "Helvetica Neue",
+        "font.face": "San Francisco Display",
         "font.size": 10,
         "font.italic": false
     },
