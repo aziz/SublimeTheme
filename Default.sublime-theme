@@ -109,8 +109,7 @@
     {
         "class": "label_control",
         "color": [0, 0, 0],
-        // "font.face": "Helvetica Neue"
-        "font.face": "San Francisco Display",
+        "font.face": "SF UI Text",
     },
     // Text field labels
     {
@@ -415,8 +414,7 @@
     {
         "class": "tool_tip_label_control",
         "color": [0, 0, 0],
-        // "font.face": "Helvetica Neue"
-        "font.face": "San Francisco Display",
+        "font.face": "SF UI Text",
     },
 
 //= PANEL BACKGROUNDS
@@ -444,8 +442,7 @@
     {
         "class": "label_control",
         "color": [0, 0, 0],
-        // "font.face": "Helvetica Neue"
-        "font.face": "San Francisco Display",
+        "font.face": "SF UI Text"
     },
     // Text field labels
     {
@@ -610,8 +607,7 @@
   // Helvetica Status bar overrides
   {
     "class": "label_control",
-    // "font.face": "Helvetica Neue",
-    "font.face": "San Francisco Display",
+    "font.face": "SF UI Text",
     "font.size": 11,
   },
   {
@@ -652,8 +648,7 @@
 	    "class": "sidebar_heading",
 	    "color": [124, 134, 146],
 	    "font.bold": true,
-	    // "font.face": "Helvetica Neue",
-        "font.face": "San Francisco Display",
+        "font.face": "SF UI Text",
 	    "font.size": 10,
 	    "shadow_color": [250, 250, 250],
 	    "shadow_offset": [0, 0]
@@ -677,9 +672,7 @@
 	{
 	    "class": "sidebar_label",
 	    "color": [0, 0, 0],
-        // "font.face": "Lucida grande",
-        "font.face": "San Francisco Display",
-	    // "font.face": "Helvetica Neue",
+        "font.face": "SF UI Text",
 	    "font.size": 10,
 	    "font.bold": false,
 	    "font.italic": false
@@ -786,9 +779,7 @@
     {
         "class": "tab_label",
         "fg": [0, 0, 0, 255],
-        // "font.face": "Consolas",
-        // "font.face": "Helvetica Neue",
-        "font.face": "San Francisco Display",
+        "font.face": "SF UI Text",
         "font.size": 10,
         "font.italic": false
     },
