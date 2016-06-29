@@ -178,13 +178,16 @@
 //= CODE COMPLETION DROPDOWN
     {
         "class": "popup_control",
-        "content_margin": [2, 2],
+        "content_margin": [1, 1],
         "layer0.tint": [255, 255, 255],
-        "layer0.opacity": 1.0
+        "layer0.opacity": 0.5,
     },
     {
         "class": "auto_complete",
-        "row_padding": [1, 2]
+        "row_padding": [10, 4, 10, -2],
+        "layer0.tint": [255, 255, 255],
+        "layer0.opacity": 1,
+        "layer0.inner_margin": [30, 10]
     },
     {
         "class": "auto_complete_label",
